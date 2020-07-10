@@ -1,0 +1,72 @@
+.single-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  margin: 100px 0; }
+  @media screen and (max-width: 920px) {
+    .single-product {
+      margin: 20px 0; } }
+  .single-product .product-image {
+    flex-basis: 30%; }
+    .single-product .product-image img {
+      max-width: 260px; }
+  .single-product .product-data {
+    flex-basis: 70%;
+    padding: 0 20px; }
+    @media screen and (max-width: 920px) {
+      .single-product .product-data {
+        padding: 0;
+        margin-top: 20px;
+        flex-basis: 100%; } }
+    .single-product .product-data .title {
+      margin-bottom: 20px; }
+      .single-product .product-data .title h1 {
+        margin: 0;
+        font-size: 4rem;
+        line-height: 1.2; }
+    .single-product .product-data .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      width: 100%;
+      margin: 50px 0; }
+      .single-product .product-data .gallery .image {
+        border: 2px solid #fff;
+        cursor: pointer; }
+        .single-product .product-data .gallery .image img {
+          max-width: 100%;
+          max-height: 130px; }
+    .single-product .product-data .video {
+      max-width: 50%; }
+      @media screen and (max-width: 920px) {
+        .single-product .product-data .video {
+          max-width: 100%; } }
+      @media screen and (max-width: 920px) {
+        .single-product .product-data .video h5 {
+          text-align: center; } }
+      .single-product .product-data .video iframe {
+        height: 350px; }
+    .single-product .product-data .prices {
+      display: flex;
+      align-items: start; }
+      .single-product .product-data .prices > div {
+        margin-right: 10px; }
+        .single-product .product-data .prices > div del {
+          opacity: .7; }
+        .single-product .product-data .prices > div.sale-price {
+          color: green;
+          font-weight: bold; }
+
+.related-products .title {
+  text-align: center; }
+
+.product-box {
+  max-width: 300px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px auto; }
+  .product-box .title {
+    padding: 5px 0; }
+
+/*# sourceMappingURL=single-product.css.map */

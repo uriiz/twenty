@@ -10,45 +10,50 @@
         <?php get_template_part( 'components/product-data', 'data' ); ?>
 
     </div>
-    <div class="related-products">
 
-        <div class="title">
-            <h5><?php _e('Related Products','twenty-twenty-child') ?></h5>
-        </div>
+    <?php
+    $collectCategoriesIds = [];
+    $categories = get_the_terms($post->ID,'product_cat');
 
-        <div class="products-loop">
+    foreach ($categories as $category){
+        array_push($collectCategoriesIds,$category->term_id);
+    }
 
-            <?php
+    $args = [
+        'post_type'       =>  'products',
+        'post_status'     =>  'publish',
+        'post__not_in'    =>  [$post->ID],
+        'order'           =>  'ASC',
+        'posts_per_page'  =>  '4',
+        'tax_query' => [
+            [
+                'taxonomy' => 'product_cat',
+                'field' => 'term_id',
+                'terms' => $collectCategoriesIds,
+            ]
+        ]
+    ];
 
-            $collectCategoriesIds = [];
-            $categories = get_the_terms($post->ID,'product_cat');
+    $products = new WP_Query($args);
 
-            foreach ($categories as $category){
-                array_push($collectCategoriesIds,$category->term_id);
-            }
+    ?>
+    <?php if(!empty($products->posts)): ?>
+        <div class="related-products">
 
-            $args = [
-                'post_type'       =>  'products',
-                'post_status'     =>  'publish',
-                'post__not_in'    =>  [$post->ID],
-                'order'           =>  'ASC',
-                'posts_per_page'  =>  '4',
-                'tax_query' => [
-                    [
-                        'taxonomy' => 'product_cat',
-                        'field' => 'term_id',
-                        'terms' => $collectCategoriesIds,
-                    ]
-                ]
-            ];
+            <div class="title">
+                <h5><?php _e('Related Products', 'twentytwenty-child') ?></h5>
+            </div>
 
-            $products = new WP_Query($args);
-            set_query_var( 'products', $products );
-            get_template_part( 'components/loop', 'loop' );
-            ?>
+            <div class="products-loop">
 
-        </div>
-    </div>
+                <?php
+                    set_query_var('products', $products);
+                    get_template_part('components/loop', 'loop');
+                ?>
+
+            </div>
+         </div>
+    <?php endif; ?>
 </div>
 
 

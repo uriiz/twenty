@@ -13,5 +13,11 @@
 
 <header id="site-header" class="header-footer-group" role="banner">
 
+        <div class="logo">
+            <a href="<?php echo home_url() ?>">
+                <?php _e('LOGO','twentytwenty-child') ?>
+            </a>
+        </div>
+
 </header>
 

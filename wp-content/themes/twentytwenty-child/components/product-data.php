@@ -29,30 +29,40 @@
 
         <div class="regular-price">
             <?php if( $isOnSale && $salePrice ): ?>
+
                 <p><del>$<?php echo $price ?></del></p>
+
             <?php else: ?>
+
                 <p>$<?php echo $price ?></p>
+
             <?php endif ?>
         </div>
         <?php if( $isOnSale && $salePrice ): ?>
             <div class="sale-price">
+
                 <p>$<?php echo $salePrice ?></p>
+
             </div>
         <?php endif ?>
     </div>
 
     <div class="gallery">
-        <div class="image">
-            <img src="<?php echo get_the_post_thumbnail_url(); ?>"/>
-        </div>
 
         <?php $images = get_post_meta($post->ID, 'vdw_gallery_id', true); ?>
 
         <?php if(!empty($images)): ?>
+
+            <div class="image">
+                <img src="<?php echo get_the_post_thumbnail_url(); ?>"/>
+            </div>
+
             <?php foreach ($images as $imageId): ?>
+
                 <div class="image">
                     <img src="<?php echo wp_get_attachment_image_src($imageId,'full')[0] ?>" alt="">
                 </div>
+
             <?php endforeach; ?>
         <?php endif ?>
 
@@ -60,7 +70,7 @@
 
     <?php if($video = get_post_meta( $post->ID, 'products_fields_youtube_link', true )): ?>
     <div class="video">
-        <h5><?php _e('Video','twenty-twenty-child') ?></h5>
+        <h5><?php _e('Video','twentytwenty-child') ?></h5>
         <iframe width="100%"
                 src="<?php echo $video ?>"
                 frameborder="0"

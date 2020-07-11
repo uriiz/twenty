@@ -95,7 +95,7 @@ class Rational_Meta_Box {
         );
     }
 
-    
+
     public function savePost( $post_id ) {
         if ( ! isset( $_POST['products_fields_nonce'] ) )
             return $post_id;

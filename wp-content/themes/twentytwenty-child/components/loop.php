@@ -3,7 +3,7 @@
         <a href="<?php the_permalink() ?>">
             <?php if(get_post_meta( $post->ID, 'products_fields_is_on_sale', true ) && get_post_meta( $post->ID, 'products_fields_sale_price', true )): ?>
                 <div class="sale">
-                    <?php _e('SALE', 'twenty-twenty-child') ?>
+                    <?php _e('SALE', 'twentytwenty-child') ?>
                 </div>
             <?php endif; ?>
             <div class="overflow-wrap">

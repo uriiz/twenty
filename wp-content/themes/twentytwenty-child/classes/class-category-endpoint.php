@@ -106,6 +106,7 @@ class CategoryEndPoint
                 'sale_price' => $salePrice != '0.00' ? $salePrice : false,
             ];
         }, $productsIds);
+
     }
 }
 

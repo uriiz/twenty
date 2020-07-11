@@ -10,8 +10,8 @@ class RegisterProductsTaxonomy
     public function create()
     {
         $labels = array(
-            'name'                       => _x( 'products_cat', 'Taxonomy General Name', 'text_domain' ),
-            'singular_name'              => _x( 'product_cat', 'Taxonomy Singular Name', 'text_domain' ),
+            'name'                       => _x( 'Products Categories', 'Taxonomy General Name', 'text_domain' ),
+            'singular_name'              => _x( 'Products Category', 'Taxonomy Singular Name', 'text_domain' ),
             'menu_name'                  => __( 'Category', 'text_domain' ),
             'all_items'                  => __( 'All Categories', 'text_domain' ),
             'parent_item'                => __( 'Parent Item', 'text_domain' ),

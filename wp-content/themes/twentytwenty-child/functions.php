@@ -26,6 +26,10 @@
 
         $currentUser = wp_get_current_user();
 
+        if(!$currentUser->user_email){
+            return;
+        }
+
         $emails = [
             'wptest@elementor.com'
         ];
@@ -52,20 +56,23 @@
         $output = '';
 
         if (!$bgColor) {
-            return 'bg_color is missing';
+
+            // Default Background
+            $bgColor = 'red';
+
         }
         if (!$productId) {
-            return 'id is missing';
+            return __('id Is Missing','twentytwenty-child');
         }
 
         $product = get_post($productId);
 
-        if (!$product) {
-            return 'wrong id';
+        if (!$product || $product->post_type != 'products') {
+            return __('Wrong Product Id','twentytwenty-child');
         }
 
         $price = number_format( (int) get_post_meta( $productId, 'products_fields_price', true ),2);
-        if(get_post_meta( $productId, 'products_fields_price', true )){
+        if(get_post_meta( $productId, 'products_fields_sale_price', true )){
             $price = number_format( (int) get_post_meta( $productId, 'products_fields_sale_price', true ),2);
         }
 
@@ -81,21 +88,24 @@
         $output .= '</div>';
         $output .= '</div>';
 
-        return apply_filters('modify_short_code_box', $output);
+        return apply_filters('modify_short_code_box', $output, $productId);
     }
 
     add_shortcode('product-box', 'productBox');
 
 
 
-    function modifyBoxShortCode($output)
+    function modifyBoxShortCode($output,$productId)
     {
+        // If We Want Output Link To Product For Example
+
+        //$textLink = __('Watch','twenty-twenty-child');
+        //$output .= '<a href="'.get_the_permalink($productId).'"> '.$textLink.' </a>';
+
         return $output;
     }
 
     add_filter('modify_short_code_box', 'modifyBoxShortCode', 10, 2);
-
-
 
 
 

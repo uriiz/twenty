@@ -10,15 +10,15 @@
     }
     add_action('admin_enqueue_scripts', 'galleryMetaBoxEnqueue');
 
-    function addGalleryMetabox($post_type) {
+    function addGalleryMetaBox($postType) {
         $types = ['products'];
 
-        if (in_array($post_type, $types)) {
+        if (in_array($postType, $types)) {
             add_meta_box(
                 'gallery-metabox',
                 'Gallery',
                 'galleryMetaCallback',
-                $post_type,
+                $postType,
                 'normal',
                 'high'
             );
@@ -35,7 +35,7 @@
         <table class="form-table">
             <tr>
                 <td>
-                    <a class="gallery-add button" href="#" data-uploader-title="Add image(s) to gallery" data-uploader-button-text="Add image(s)">Add image(s)</a>
+                    <a class="gallery-add button" href="#" data-uploader-title="<?php _e('Add image(s) to gallery','twentytwenty-child') ?>" data-uploader-button-text="Add image(s)">Add image(s)</a>
                     <ul id="gallery-metabox-list">
                         <?php if ($ids) : foreach ($ids as $key => $value) : $image = wp_get_attachment_image_src($value); ?>
 
@@ -53,19 +53,19 @@
         </table>
     <?php }
 
-    function galleryMetaSave($post_id) {
+    function galleryMetaSave($postId) {
 
 
         if (!isset($_POST['gallery_meta_nonce']) || !wp_verify_nonce($_POST['gallery_meta_nonce'], basename(__FILE__))) return;
 
-        if (!current_user_can('edit_post', $post_id)) return;
+        if (!current_user_can('edit_post', $postId)) return;
 
         if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
 
         if(isset($_POST['vdw_gallery_id'])) {
-            update_post_meta($post_id, 'vdw_gallery_id', $_POST['vdw_gallery_id']);
+            update_post_meta($postId, 'vdw_gallery_id', $_POST['vdw_gallery_id']);
         } else {
-            delete_post_meta($post_id, 'vdw_gallery_id');
+            delete_post_meta($postId, 'vdw_gallery_id');
         }
     }
     add_action('save_post', 'galleryMetaSave');

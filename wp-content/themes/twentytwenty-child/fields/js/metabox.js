@@ -1,14 +1,14 @@
 jQuery(function($) {
 
-    var file_frame;
+    var fileFrame;
 
     $(document).on('click', '#gallery-metabox a.gallery-add', function(e) {
 
         e.preventDefault();
 
-        if (file_frame) file_frame.close();
+        if (fileFrame) fileFrame.close();
 
-        file_frame = wp.media.frames.file_frame = wp.media({
+        fileFrame = wp.media.frames.fileFrame = wp.media({
             title: $(this).data('uploader-title'),
             button: {
                 text: $(this).data('uploader-button-text'),
@@ -16,9 +16,9 @@ jQuery(function($) {
             multiple: true
         });
 
-        file_frame.on('select', function() {
+        fileFrame.on('select', function() {
             var listIndex = $('#gallery-metabox-list li').index($('#gallery-metabox-list li:last')),
-                selection = file_frame.state().get('selection');
+                selection = fileFrame.state().get('selection');
 
             selection.map(function(attachment, i) {
                 attachment = attachment.toJSON(),
@@ -30,7 +30,7 @@ jQuery(function($) {
 
         makeSortable();
 
-        file_frame.open();
+        fileFrame.open();
 
     });
 
@@ -40,9 +40,9 @@ jQuery(function($) {
 
         var that = $(this);
 
-        if (file_frame) file_frame.close();
+        if (fileFrame) fileFrame.close();
 
-        file_frame = wp.media.frames.file_frame = wp.media({
+        fileFrame = wp.media.frames.fileFrame = wp.media({
             title: $(this).data('uploader-title'),
             button: {
                 text: $(this).data('uploader-button-text'),
@@ -50,14 +50,14 @@ jQuery(function($) {
             multiple: false
         });
 
-        file_frame.on( 'select', function() {
-            attachment = file_frame.state().get('selection').first().toJSON();
+        fileFrame.on( 'select', function() {
+            attachment = fileFrame.state().get('selection').first().toJSON();
 
             that.parent().find('input:hidden').attr('value', attachment.id);
             that.parent().find('img.image-preview').attr('src', attachment.sizes.thumbnail.url);
         });
 
-        file_frame.open();
+        fileFrame.open();
 
     });
 

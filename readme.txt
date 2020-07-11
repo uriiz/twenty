@@ -1,9 +1,11 @@
 link:https://elementor-fs-test.elementor.cloud/ 
 
-endpoints examples: by category id:https://elementor-fs-test.elementor.cloud/wp-json/v1/category-id/2 
+endpoints examples: 
+
+by category id:
+https://elementor-fs-test.elementor.cloud/wp-json/v1/category-id/2 
 
 by category name:
-
 https://elementor-fs-test.elementor.cloud/wp-json/v1/category-name/category%202 
 
 custom address bar color:

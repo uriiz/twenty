@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e60bd49-f7c9-4e08-b035-9ea46228b6e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/loop.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/loop.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/single-product.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/single-product.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,17 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="19" column="7" selection-start-line="17" selection-start-column="5" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="157">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="248">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -194,6 +191,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp03389/wp-content/wp-content/themes/twentytwenty-child/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -214,83 +212,6 @@
             <path>
               <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
               <item name="twenty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="fields" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="fields" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentytwenty-child" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594240554740</updated>
-      <workItem from="1594240555905" duration="56760000" />
+      <workItem from="1594240555905" duration="57528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56760000" />
+    <option name="totallyTimeSpent" value="57528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -672,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="7" selection-start-line="17" selection-start-column="5" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp03389/wp-content/wp-content/themes/twentytwenty-child/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
@@ -695,8 +609,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="248">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

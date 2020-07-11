@@ -1,6 +1,6 @@
 <?php
 
-class Rational_Meta_Box {
+class RationalMetaBox {
 
     private $screens = [
         'products',
@@ -124,4 +124,4 @@ class Rational_Meta_Box {
         }
     }
 }
-new Rational_Meta_Box;
+new RationalMetaBox();

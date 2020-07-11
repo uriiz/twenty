@@ -2,6 +2,25 @@ jQuery(function($) {
 
     var fileFrame;
 
+    $('#price,#sale_price').keyup(function () {
+
+        let price = $(this).val();
+        $('#publishing-action').css({'pointer-events':'auto','opacity':1})
+        $('.form-table .error, #publishing-action .error').remove();
+
+
+        if(!price){
+            return;
+        }
+
+        if(!/^[0-9.]+$/.test(price)){
+
+            $(this).parent().append("<div class='error'>please enter with on monetary decimal point (.) without currency symbols</div>");
+            $('#publishing-action').append("<div class='error'>in the prices fields value entered with on monetary decimal point (.) without currency symbols</div>");
+            $('#publishing-action').css({'pointer-events':'none','opacity':.4})
+        }
+    })
+
     $(document).on('click', '#gallery-metabox a.gallery-add', function(e) {
 
         e.preventDefault();

@@ -96,16 +96,16 @@ class Rational_Meta_Box {
     }
 
 
-    public function savePost( $post_id ) {
+    public function savePost( $postId ) {
         if ( ! isset( $_POST['products_fields_nonce'] ) )
-            return $post_id;
+            return $postId;
 
         $nonce = $_POST['products_fields_nonce'];
         if ( !wp_verify_nonce( $nonce, 'products_fields_data' ) )
-            return $post_id;
+            return $postId;
 
         if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
-            return $post_id;
+            return $postId;
 
         foreach ( $this->fields as $field ) {
             if ( isset( $_POST[ $field['id'] ] ) ) {
@@ -117,9 +117,9 @@ class Rational_Meta_Box {
                         $_POST[ $field['id'] ] = sanitize_text_field( $_POST[ $field['id'] ] );
                         break;
                 }
-                update_post_meta( $post_id, 'products_fields_' . $field['id'], $_POST[ $field['id'] ] );
+                update_post_meta( $postId, 'products_fields_' . $field['id'], $_POST[ $field['id'] ] );
             } else if ( $field['type'] === 'checkbox' ) {
-                update_post_meta( $post_id, 'products_fields_' . $field['id'], '0' );
+                update_post_meta( $postId, 'products_fields_' . $field['id'], '0' );
             }
         }
     }

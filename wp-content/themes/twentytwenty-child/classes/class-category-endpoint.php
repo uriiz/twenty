@@ -93,9 +93,9 @@ class CategoryEndPoint
     {
         return array_map(function ($id) {
 
-            $price = number_format( (int) get_post_meta( $id , 'products_fields_price', true ),2);
+            $price = number_format( (float) get_post_meta( $id , 'products_fields_price', true ),2);
             $isOnSale = get_post_meta( $id , 'products_fields_is_on_sale', true );
-            $salePrice = number_format( (int) get_post_meta( $id , 'products_fields_sale_price', true ),2);;
+            $salePrice = number_format( (float) get_post_meta( $id , 'products_fields_sale_price', true ),2);;
 
             return [
                 'title' => get_the_title($id),

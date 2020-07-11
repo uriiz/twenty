@@ -71,9 +71,9 @@
             return __('Wrong Product Id','twentytwenty-child');
         }
 
-        $price = number_format( (int) get_post_meta( $productId, 'products_fields_price', true ),2);
+        $price = number_format( (float) get_post_meta( $productId, 'products_fields_price', true ),2);
         if(get_post_meta( $productId, 'products_fields_sale_price', true )){
-            $price = number_format( (int) get_post_meta( $productId, 'products_fields_sale_price', true ),2);
+            $price = number_format( (float) get_post_meta( $productId, 'products_fields_sale_price', true ),2);
         }
 
         $output .= '<div class="product-box" style="background-color:' . $bgColor . ' ">';

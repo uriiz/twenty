@@ -9,8 +9,14 @@
       margin: 20px 0; } }
   .single-product .product-image {
     flex-basis: 30%; }
+    @media screen and (max-width: 450px) {
+      .single-product .product-image {
+        flex-basis: 100%; } }
     .single-product .product-image img {
       max-width: 260px; }
+      @media screen and (max-width: 450px) {
+        .single-product .product-image img {
+          margin: auto; } }
   .single-product .product-data {
     flex-basis: 70%;
     padding: 0 20px; }
@@ -24,7 +30,10 @@
       .single-product .product-data .title h1 {
         margin: 0;
         font-size: 4rem;
-        line-height: 1.2; }
+        line-height: 1; }
+        @media screen and (max-width: 450px) {
+          .single-product .product-data .title h1 {
+            font-size: 2.5rem; } }
     .single-product .product-data .gallery {
       display: flex;
       flex-wrap: wrap;

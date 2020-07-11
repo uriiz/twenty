@@ -1,3 +1,12 @@
-#site-header{
-  padding: 10px 20px;
+.back-to-home {
+  line-height: 1;
+  padding: 20px 0;
+  @media screen and (max-width: 450px) {
+   padding-bottom: 0;
+  }
+  a{
+    @media screen and (max-width: 450px) {
+      font-size: 1.2rem;
+    }
+  }
 }

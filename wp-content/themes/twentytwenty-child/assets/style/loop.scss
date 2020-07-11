@@ -3,6 +3,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 50px 0;
+  @media screen and (max-width: 500px) {
+    margin: 20px 0;
+  }
   .product-item{
     flex-basis: 25%;
     display: flex;

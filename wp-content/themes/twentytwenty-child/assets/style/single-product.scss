@@ -10,8 +10,14 @@
   }
   .product-image{
     flex-basis: 30%;
+      @media screen and (max-width: 450px) {
+        flex-basis: 100%;
+      }
     img{
       max-width: 260px;
+      @media screen and (max-width: 450px) {
+        margin: auto;
+      }
     }
   }
   .product-data{
@@ -27,7 +33,10 @@
       h1{
         margin: 0;
         font-size: 4rem;
-        line-height: 1.2;
+        line-height: 1;
+        @media screen and (max-width: 450px) {
+          font-size: 2.5rem;
+        }
       }
     }
     .gallery{

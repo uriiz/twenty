@@ -3,24 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5e60bd49-f7c9-4e08-b035-9ea46228b6e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/loop.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/loop.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/single-product.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/.sass-cache/963fa9d75fd385efab380032c2690d846f8f960c/single-product.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-category-endpoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-category-endpoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/product-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/product-data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/class-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/class-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/gallery-field.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/gallery-field.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/js/metabox.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/js/metabox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/single-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/single-products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/templates/template-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/templates/template-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,17 +29,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="155">
+              <caret line="5" column="22" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="19" column="7" selection-start-line="17" selection-start-column="5" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+            <state relative-caret-position="124">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -67,55 +90,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/js/metabox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-310">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/gallery-field.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1178">
-              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp52004/wp-content/wp-content/themes/twentytwenty-child/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/theme-settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/class-fields.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1929">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="31">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -124,9 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Hierarchical</find>
-      <find>product-image</find>
-      <find>.gallery</find>
       <find>.product-item</find>
       <find>products</find>
       <find>single-product</find>
@@ -154,6 +138,9 @@
       <find>_e(</find>
       <find>file_frame</find>
       <find>twenty-twenty-child</find>
+      <find>products-loop</find>
+      <find>.product-image</find>
+      <find>.product-data</find>
     </findStrings>
     <replaceStrings>
       <replace>addGalleryMetaboc</replace>
@@ -182,11 +169,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/home.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-post-type.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery-metabox.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery-metabox.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/class-fileds.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/fields.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/class-fields.php" />
@@ -195,16 +180,20 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/js/metabox.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-category-endpoint.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/loop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/single-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/components/product-data.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/gallery-field.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/templates/template-home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp52004/wp-content/wp-content/themes/twentytwenty-child/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp03389/wp-content/wp-content/themes/twentytwenty-child/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss" />
       </list>
     </option>
   </component>
@@ -350,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594240554740</updated>
-      <workItem from="1594240555905" duration="55053000" />
+      <workItem from="1594240555905" duration="56760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55053000" />
+    <option name="totallyTimeSpent" value="56760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -511,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-carbon-fields.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -559,13 +541,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/css/metabox.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/fields.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -603,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -658,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/gallery-field.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
-          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -676,24 +644,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="1178">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="31">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp52004/wp-content/wp-content/themes/twentytwenty-child/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        <state relative-caret-position="31">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/loop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/single-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="7" selection-start-line="17" selection-start-column="5" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp03389/wp-content/wp-content/themes/twentytwenty-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="22" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

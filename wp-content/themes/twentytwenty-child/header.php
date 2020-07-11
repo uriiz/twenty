@@ -12,12 +12,15 @@
 <body <?php body_class(); ?>>
 
 <header id="site-header" class="header-footer-group" role="banner">
-
-        <div class="logo">
-            <a href="<?php echo home_url() ?>">
-                <?php _e('LOGO','twentytwenty-child') ?>
-            </a>
-        </div>
+        <?php if(!is_front_page()): ?>
+            <div class="container">
+                <div class="back-to-home">
+                    <a href="<?php echo home_url() ?>">
+                        <?php _e('< Back To Home','twentytwenty-child') ?>
+                    </a>
+                </div>
+            </div>
+        <?php endif; ?>
 
 </header>
 

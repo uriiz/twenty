@@ -1,4 +1,11 @@
-#site-header {
-  padding: 10px 20px; }
+.back-to-home {
+  line-height: 1;
+  padding: 20px 0; }
+  @media screen and (max-width: 450px) {
+    .back-to-home {
+      padding-bottom: 0; } }
+  @media screen and (max-width: 450px) {
+    .back-to-home a {
+      font-size: 1.2rem; } }
 
 /*# sourceMappingURL=header.css.map */

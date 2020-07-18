@@ -7,7 +7,7 @@ class RegisterProductsTaxonomy
         add_action( 'init', [$this,'create'] , 0 );
     }
 
-    public function create()
+    public static function create()
     {
         $labels = array(
             'name'                       => _x( 'Products Categories', 'Taxonomy General Name', 'text_domain' ),

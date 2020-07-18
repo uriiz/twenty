@@ -51,6 +51,9 @@
 
     function productBox($attributes)
     {
+        return '';
+        $bgColor = '';
+        if(isset($attributes['bg_color']))
         $bgColor = $attributes['bg_color'];
         $productId = $attributes['id'];
         $output = '';
@@ -105,7 +108,9 @@
         return $output;
     }
 
-    add_filter('modify_short_code_box', 'modifyBoxShortCode', 10, 2);
+   // add_filter('modify_short_code_box', 'modifyBoxShortCode', 10, 2);
+
+
 
 
 

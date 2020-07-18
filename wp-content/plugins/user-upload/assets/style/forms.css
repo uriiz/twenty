@@ -1,0 +1,8 @@
+.user-form {
+  padding: 20px; }
+  .user-form .wrap-input {
+    margin-bottom: 30px; }
+    .user-form .wrap-input.wrap-input-submit {
+      display: flex; }
+
+/*# sourceMappingURL=forms.css.map */

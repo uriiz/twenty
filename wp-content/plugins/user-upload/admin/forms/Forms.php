@@ -1,5 +1,10 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+
 class Forms
 {
     private $postTypes = [];
@@ -10,7 +15,7 @@ class Forms
     private $fields = [
         [
             'id' => 'post-type',
-            'label' => 'Post Type',
+            'label' => 'Upload as ',
             'type' => 'select',
         ],
         [
@@ -27,11 +32,37 @@ class Forms
             'label' => 'Only Login Member ?',
             'type' => 'checkbox',
         ],
+
+        [
+            'id' => 'has-price',
+            'label' => 'Upload Price ?',
+            'type' => 'checkbox',
+        ],
+
+        [
+            'id' => 'upload-sku',
+            'label' => 'Upload Sku ?',
+            'type' => 'checkbox',
+        ],
+
+        [
+            'id' => 'quantity-forms',
+            'label' => 'Upload Quantity ?',
+            'type' => 'checkbox',
+        ],
+
         [
             'id' => 'upload-image',
             'label' => 'Upload Thumbnail ?',
             'type' => 'checkbox',
         ],
+        [
+            'id' => 'success-message',
+            'label' => 'Success Message',
+            'type' => 'text',
+
+        ],
+
         [
             'id' => 'short-code',
             'label' => 'Short Code',
@@ -57,6 +88,10 @@ class Forms
                 'customize_changeset',
                 'oembed_cache',
                 'user_request',
+                'product_variation',
+                'shop_order',
+                'shop_order_refund',
+                'shop_coupon',
                 'wp_block'
             ];
 
@@ -162,7 +197,7 @@ class Forms
                     }
 
             }
-            $output .= $this->row_format($label, $input);
+            $output .= $this->row_format($label, $input, $field['id']);
         }
         echo '<table class="form-table"><tbody>' . $output . '</tbody></table>';
     }
@@ -170,10 +205,10 @@ class Forms
     /**
      * Generates the HTML for table rows.
      */
-    public function row_format($label, $input)
+    public function row_format($label, $input , $id = null)
     {
         return sprintf(
-            '<tr><th scope="row">%s</th><td>%s</td></tr>',
+            '<tr class="user-upload-'.$id.'"><th scope="row">%s</th><td>%s</td></tr>',
             $label,
             $input
         );

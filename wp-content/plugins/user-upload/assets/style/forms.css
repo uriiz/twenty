@@ -1,8 +1,68 @@
-.user-form {
-  padding: 20px; }
-  .user-form .wrap-input {
-    margin-bottom: 30px; }
-    .user-form .wrap-input.wrap-input-submit {
-      display: flex; }
+.user-form .wrap-input {
+  margin-bottom: 30px; }
+  .user-form .wrap-input.wrap-input-submit {
+    display: flex; }
+    .user-form .wrap-input.wrap-input-submit #user-form-submit {
+      display: flex;
+      align-items: center; }
+      .user-form .wrap-input.wrap-input-submit #user-form-submit .load {
+        -webkit-animation: rotating 2s linear infinite;
+        -moz-animation: rotating 2s linear infinite;
+        -ms-animation: rotating 2s linear infinite;
+        -o-animation: rotating 2s linear infinite;
+        animation: rotating 2s linear infinite;
+        margin: 0 5px;
+        display: none; }
+      .user-form .wrap-input.wrap-input-submit #user-form-submit.is-load {
+        pointer-events: none;
+        opacity: .8; }
+      .user-form .wrap-input.wrap-input-submit #user-form-submit svg {
+        width: 30px;
+        height: 30px;
+        fill: #fff; }
+
+.user-forms-content {
+  margin-bottom: 30px; }
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.wrap-input input.error, .wrap-input textarea.error {
+  border: 1px solid red; }
+
+img#user-form-thumbnail {
+  max-width: 200px;
+  margin: 0 20px;
+  display: inline-block; }
+
+#imgInp {
+  display: none; }
+
+.upload-image-user-forms {
+  background: transparent;
+  color: #000;
+  border: 2px dashed #cd2653; }
+
+.wrap-input-upload {
+  display: flex; }
 
 /*# sourceMappingURL=forms.css.map */

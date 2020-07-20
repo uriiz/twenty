@@ -4,7 +4,6 @@ class ShortCode
 {
     public function __construct()
     {
-
         add_shortcode('user_form', [$this,'formShortCode']);
     }
 
@@ -45,8 +44,14 @@ class ShortCode
     {
         $setting = [];
         $setting['post_type'] = get_post_meta( $id , 'user_forms_post-type', true );
+        $setting['thumbnail'] = get_post_meta( $id , 'user_forms_upload-image', true );
         $setting['status'] = get_post_meta( $id , 'user_forms_status', true ) ? get_post_meta( $id , 'user_forms_status', true ) : 'draft' ;
         $setting['only_members'] = get_post_meta( $id , 'user_forms_only-login-member', true );
+        $setting['has_price'] = get_post_meta( $id , 'user_forms_has-price', true );
+        $setting['sku'] = get_post_meta( $id , 'user_forms_upload-sku', true );
+        $setting['quantity'] = get_post_meta( $id , 'user_forms_quantity-forms', true );
+        $setting['message'] = get_post_meta( $id , 'user_forms_success-message', true );
+
 
         return $setting;
     }

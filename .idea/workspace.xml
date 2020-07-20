@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e60bd49-f7c9-4e08-b035-9ea46228b6e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/images/load.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/.sass-cache/3cae5535ceb7790db4e87d730907a3f805306498/forms.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/.sass-cache/3cae5535ceb7790db4e87d730907a3f805306498/forms.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="17" column="94" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="118">
+              <caret line="72" column="87" selection-start-line="72" selection-start-column="79" selection-end-line="72" selection-end-column="87" />
               <folding>
                 <element signature="e#6#381#0#PHP" expanded="true" />
               </folding>
@@ -47,58 +41,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="317">
+              <caret line="84" column="34" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/scripts/main.js">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="35" />
+              <caret column="20" selection-start-column="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin-forms.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="74" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -106,8 +97,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="682">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#div#1;n#button#0;n#div#3;n#form#0;n#div#0;n#!!top" />
+                <element signature="n#style#0;n#svg#0;n#div#1;n#button#0;n#div#3;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="59" column="36" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -116,10 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add_meta_box(</find>
-      <find>.title</find>
-      <find>products_fields_add_meta_box</find>
-      <find>generate_fields</find>
       <find>add_gallery_metabox</find>
       <find>addGalleryMetaBox</find>
       <find>sale_price</find>
@@ -141,11 +151,15 @@
       <find>is_on_sale</find>
       <find>user fo</find>
       <find>products_fields</find>
-      <find>bg_color</find>
-      <find>savePost</find>
       <find>upload_post</find>
-      <find>$attach_id</find>
+      <find>bg_color</find>
+      <find>upload-image-user-forms</find>
       <find>user-form-thumbnail</find>
+      <find>$attach_id</find>
+      <find>row_format</find>
+      <find>thumbnail</find>
+      <find>user-form-submit</find>
+      <find>savePost</find>
     </findStrings>
     <replaceStrings>
       <replace>addGalleryMetaboc</replace>
@@ -162,11 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/test.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/CarbonFields.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/new.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-carbon-fields.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-post-type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/reset.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/home.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/style/main.css" />
@@ -204,15 +213,20 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/templates/default.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/main.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/templates/single-user_forms.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/images/load.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin-forms.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/admin.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php" />
       </list>
     </option>
   </component>
@@ -258,7 +272,7 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="user-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
@@ -266,8 +280,8 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="user-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
@@ -275,15 +289,8 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="user-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twenty" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="user-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twenty" type="b2602c69:ProjectViewProjectNode" />
@@ -389,12 +396,12 @@
       <option name="presentableId" value="Default" />
       <updated>1594240554740</updated>
       <workItem from="1594240555905" duration="57596000" />
-      <workItem from="1594929093344" duration="24812000" />
+      <workItem from="1594929093344" duration="38214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96673000" />
+    <option name="totallyTimeSpent" value="110075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,6 +419,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -433,18 +441,19 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,18 +464,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery-metabox.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery-metabox.js" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/gallery.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/css/metabox.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/fields/fields.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp56221/wp-content/wp-content/themes/twentytwenty-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/classes/class-products-post-type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
@@ -615,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -678,22 +668,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,65 +692,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="17" column="94" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/classes/Activate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="62">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/templates/single-user_forms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwenty-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/images/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="n#svg#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/admin-forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/style/user-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/admin/forms/Forms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/user-upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="118">
+          <caret line="72" column="87" selection-start-line="72" selection-start-column="79" selection-end-line="72" selection-end-column="87" />
           <folding>
             <element signature="e#6#381#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/assets/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/ShortCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="682">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/ajax/Upload.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/user-upload/shortcode/templates/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state relative-caret-position="651">
+          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#1;n#button#0;n#div#3;n#form#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#div#1;n#button#0;n#div#3;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

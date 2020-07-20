@@ -1,0 +1,69 @@
+/*
+Error: Undefined mixin 'breakpoint'.
+        on line 34 of style.scss, in `breakpoint'
+        from line 34 of style.scss
+
+29: 	position: fixed;
+30: 	bottom: 20px;
+31: 	left: 16px;
+32: 	width: auto;
+33: 
+34: 	@include breakpoint( "<782px" ) {
+35: 		position: fixed;
+36: 		top: 10px;
+37: 		left: 0;
+38: 		bottom: auto;
+39: 	}
+
+Backtrace:
+style.scss:34:in `breakpoint'
+style.scss:34
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/bin/scss:13:in `<top (required)>'
+C:/Ruby27-x64/bin/scss:23:in `load'
+C:/Ruby27-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'breakpoint'.\A         on line 34 of style.scss, in `breakpoint'\A         from line 34 of style.scss\A \A 29: 	position: fixed;\A 30: 	bottom: 20px;\A 31: 	left: 16px;\A 32: 	width: auto;\A 33: \A 34: 	@include breakpoint( \"<782px\" ) {\A 35: 		position: fixed;\A 36: 		top: 10px;\A 37: 		left: 0;\A 38: 		bottom: auto;\A 39: 	}"; }

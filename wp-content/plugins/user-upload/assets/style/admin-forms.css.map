@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,4EAA0E;EACxE,OAAO,EAAE,IAAI",
+"sources": ["admin-forms.scss"],
+"names": [],
+"file": "admin-forms.css"
+}

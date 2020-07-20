@@ -1,5 +1,9 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 
 class Upload
 {
@@ -16,9 +20,22 @@ class Upload
             'post_title' => $_POST['title'] ,
             'post_content' => $_POST['content'] ,
             'post_status' => $_POST['status'],
-            'post_author' => 1,
+            'post_author' => get_current_user_id() ? get_current_user_id() : 1,
             'post_type' => $_POST['post_type']
         ]);
+
+
+          if($_POST['post_type'] == 'product'){
+
+              update_post_meta( $postId, '_regular_price', $_POST['price'] );
+              update_post_meta( $postId, '_sku', $_POST['sku'] );
+
+              if($_POST['quantity']){
+                  update_post_meta( $postId, '_stock', $_POST['quantity'] );
+                  update_post_meta( $postId, '_manage_stock', 'yes' );
+              }
+
+          }
 
           if ($_POST['thumbnail']){
 
@@ -35,7 +52,9 @@ class Upload
         $upload_dir = wp_upload_dir();
         $upload_path = str_replace( '/', DIRECTORY_SEPARATOR, $upload_dir['path'] ) . DIRECTORY_SEPARATOR;
         $img = $imageBase;
-        $img = str_replace('data:image/png;base64,', '', $img);
+
+
+        $img = str_replace('data:image/jpeg;base64,', '', $img);
         $img = str_replace(' ', '+', $img);
 
         $decoded = base64_decode($img) ;
